@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1678052459 source:c:\users\hp\desktop\programy na github\c++\programs\measurement readout\main.cpp
+	<iostream>
+	<string.h>
+	<iostream>
+	<cstdlib>
+	<string.h>
+	<time.h>
+	<random>
+	<stdio.h>
+	<iomanip>
+	<conio.h>
+	<fstream>
+	<algorithm>
+

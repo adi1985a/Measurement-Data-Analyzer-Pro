@@ -1,3 +1,66 @@
+# 🔬📊 Measurement Data Analyzer Pro 📈
+_A C++ console application for reading, displaying, and statistically analyzing numerical measurement data from a file, with operation logging._
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-blue.svg)](https://isocpp.org/)
+[![Platform: Windows](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
+
+## 📋 Table of Contents
+1.  [Project Description](#-project-description)
+2.  [Key Features](#-key-features)
+3.  [Screenshots](#-screenshots)
+4.  [System Requirements](#-system-requirements)
+5.  [Input Data Format (`measurement.txt`)](#-input-data-format-measurementtxt)
+6.  [Installation and Running](#️-installation-and-running)
+7.  [How to Use](#️-how-to-use)
+8.  [Logging](#-logging)
+9.  [Technical Details & Program Logic](#-technical-details--program-logic)
+10. [Contributing](#-contributing)
+11. [Author](#️-author)
+12. [License](#-license)
+
+## 📝 Project Description
+
+**Measurement Data Analyzer Pro** is a practical C++ console application designed for the straightforward analysis of numerical measurement data. The program reads data points from an external file (`measurement.txt`), allows users to display the loaded measurements, and calculates key descriptive statistics including the average, minimum, and maximum values. All significant operations and any encountered errors are meticulously logged to `program.log` with timestamps. It features a colorful user interface for enhanced clarity and user experience. While it includes a "Save results" option, this is currently a placeholder for future development.
+
+## ✨ Key Features
+
+*   📄 **Data Input from File**: Reads numerical measurement data from a specified text file (`measurement.txt`).
+*    Lined_list_view_data **Display Measurements**: Clearly lists all loaded measurement data points.
+*   📊 **Statistical Calculations**:
+    *   Computes the **average** (mean) of the measurements.
+    *   Identifies the **minimum** value in the dataset.
+    *   Finds the **maximum** value in the dataset.
+*   💾 **Save Results (Placeholder)**: Includes a menu option for saving results, though the core saving functionality might be a work-in-progress or basic.
+*   ✍️ **Comprehensive Logging**: All major operations (file reading, calculations, menu choices) and errors (e.g., file not found, invalid data in file) are logged with timestamps to `program.log`.
+*   🌈 **Colorful Console Interface**: Utilizes colored text for menus, prompts, and output, improving readability and user interaction (Windows-specific).
+*   ✔️ **Error Handling**: Basic error management for issues like file access problems or non-numeric data in the input file.
+*   📋 **Menu-Driven Operation**: User-friendly menu for easy navigation through the program's functionalities.
+
+## 🖼️ Screenshots
+
+**Coming soon!**
+
+_This section will be updated with screenshots showcasing the main menu, data display, statistical output, and examples of the `program.log` and `measurement.txt` files._
+
+## ⚙️ System Requirements
+
+*   **Operating System**: Windows (due to the use of `windows.h` for console color manipulation and `conio.h` for functions like `_getch()`).
+*   **C++ Compiler**: Any modern C++ compiler that supports C++11 or newer (e.g., g++, MinGW, Clang, MSVC).
+*   **Input File**: A text file named `measurement.txt` must be present in the same directory as the executable, containing numerical data.
+
+## 📄 Input Data Format (`measurement.txt`)
+
+The program expects an input file named `measurement.txt` located in the same directory as the executable.
+*   Each line in this file should contain a single numerical value (integer or floating-point).
+*   Empty lines or lines with non-numeric data may be skipped or cause an error to be logged, depending on the implementation's robustness.
+
+**Example `measurement.txt`:**
+10.5
+22.1
+15.0
+8.75
+30.2
 
 ## 🛠️ Installation and Running
 

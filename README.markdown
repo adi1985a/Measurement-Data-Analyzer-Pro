@@ -23,6 +23,8 @@ _A C++ console application for reading, displaying, and statistically analyzing 
 
 **Measurement Data Analyzer Pro** is a practical C++ console application designed for the straightforward analysis of numerical measurement data. The program reads data points from an external file (`measurement.txt`), allows users to display the loaded measurements, and calculates key descriptive statistics including the average, minimum, and maximum values. All significant operations and any encountered errors are meticulously logged to `program.log` with timestamps. It features a colorful user interface for enhanced clarity and user experience. While it includes a "Save results" option, this is currently a placeholder for future development.
 
+![Demo GIF](screenshots/1.gif)
+
 ## ✨ Key Features
 
 *   📄 **Data Input from File**: Reads numerical measurement data from a specified text file (`measurement.txt`).
@@ -39,9 +41,16 @@ _A C++ console application for reading, displaying, and statistically analyzing 
 
 ## 🖼️ Screenshots
 
-**Coming soon!**
+_Screenshots showcasing the main menu, data display, statistical output, and examples of the `program.log` and `measurement.txt` files._
 
-_This section will be updated with screenshots showcasing the main menu, data display, statistical output, and examples of the `program.log` and `measurement.txt` files._
+<p align="center">
+  <img src="screenshots\1.jpg" width="300"/>
+  <img src="screenshots\2.jpg" width="300"/>
+  <img src="screenshots\3.jpg" width="300"/>
+  <img src="screenshots\4.jpg" width="300"/>
+  <img src="screenshots\5.jpg" width="300"/>
+  <img src="screenshots\6.jpg" width="300"/>
+</p>
 
 ## ⚙️ System Requirements
 
